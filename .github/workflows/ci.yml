@@ -28,5 +28,6 @@ jobs:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: npx semantic-release
 
-      - name: 📝 Gitmoji Changelog Action
-        uses: MarkLyck/gitmoji-changelog-action@1.0.1
+      - name: 📝 Generate Changelog
+      - run: npm install -g gitmoji-changelog
+      - run: gitmoji-changelog
