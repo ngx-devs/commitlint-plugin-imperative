@@ -29,4 +29,4 @@ jobs:
         run: npx semantic-release
 
       - name: 📝 Gitmoji Changelog Action
-        uses: MarkLyck/gitmoji-changelog-action@1.0.2
+        uses: MarkLyck/gitmoji-changelog-action@1.0.1
