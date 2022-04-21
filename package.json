@@ -9,7 +9,8 @@
     "dist/**/!(*.test).{js,d.ts}"
   ],
   "scripts": {
-    "test": "c8 ava"
+    "test": "c8 ava",
+    "changelog": "gitmoji-changelog"
   },
   "keywords": [
     "commitlint",
