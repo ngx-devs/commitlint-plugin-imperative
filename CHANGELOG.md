@@ -5,22 +5,25 @@
 
 ### Changed
 
-- 🔧 ci: add action to commit [[d3807a8](https://github.com/gleisonkz/commitlint-plugin-imperative/commit/d3807a8aaa6e1af9c0281422490a8821f3371100)]
-- 🔧 ci: fix yml syntax [[835b587](https://github.com/gleisonkz/commitlint-plugin-imperative/commit/835b5870894cabc84a46a75171abfb64b5295d7a)]
-- 🔧 ci: fix yml syntax [[ef477bc](https://github.com/gleisonkz/commitlint-plugin-imperative/commit/ef477bcc79a24858716dea207aae26e8412506a8)]
-- 🔧 ci: update generate changelog script [[a109e1e](https://github.com/gleisonkz/commitlint-plugin-imperative/commit/a109e1e62f7766f60dfcd863b114086f1e1f1599)]
-- 🔧 ci: update gitmoji-changelog-action version [[8bd9c84](https://github.com/gleisonkz/commitlint-plugin-imperative/commit/8bd9c8428a50ce680ef7d56f973f9aefb47bf333)]
+- 🔧 ci: add action to commit [[d3807a8](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/d3807a8aaa6e1af9c0281422490a8821f3371100)]
+- 🔧 ci: fix yml syntax [[835b587](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/835b5870894cabc84a46a75171abfb64b5295d7a)]
+- 🔧 ci: fix yml syntax [[ef477bc](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/ef477bcc79a24858716dea207aae26e8412506a8)]
+- 🔧 ci: update generate changelog script [[a109e1e](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/a109e1e62f7766f60dfcd863b114086f1e1f1599)]
+- 🔧 ci: update gitmoji-changelog-action version [[8bd9c84](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/8bd9c8428a50ce680ef7d56f973f9aefb47bf333)]
 
 ### Documentation
 
-- ✏️ docs: update changelog [[a82186d](https://github.com/gleisonkz/commitlint-plugin-imperative/commit/a82186d196da6efc722184fbe1c5f713b52099e7)]
+- ✏️ docs: rename readme file [[25d23d5](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/25d23d5403534e637505c334cb46b3bccda8f241)]
+- ✏️ docs: update changelog [[a82186d](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/a82186d196da6efc722184fbe1c5f713b52099e7)]
 
 ### Miscellaneous
 
-- 🚧 chore: add gitmoji changelog action [[fc0764c](https://github.com/gleisonkz/commitlint-plugin-imperative/commit/fc0764cd861386b58c9ea9d56a6f78aa5f98a971)]
-- 🚧 chore: add changelog script [[be0740a](https://github.com/gleisonkz/commitlint-plugin-imperative/commit/be0740ae8d7bd01079286050985b54c3ae50f20e)]
-- 🚧 chore: update node version on ci environment [[8f8f221](https://github.com/gleisonkz/commitlint-plugin-imperative/commit/8f8f2217975d03dc9f1b78d0ded75df504abe9ae)]
-- 🚧 chore: set package.json private key to false [[0c4d9c8](https://github.com/gleisonkz/commitlint-plugin-imperative/commit/0c4d9c8794e2368f489e194d69303a48f115b0a1)]
+- 🧪 test: update test description [[3ae4cf2](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/3ae4cf21c338ba6bdd9baa600a37d230f0d83d23)]
+- 🚧 chore: add changelogrc config [[4c0ceb9](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/4c0ceb9c078e66cb0cbd33b18be16fb325bc557f)]
+- 🚧 chore: add gitmoji changelog action [[fc0764c](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/fc0764cd861386b58c9ea9d56a6f78aa5f98a971)]
+- 🚧 chore: add changelog script [[be0740a](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/be0740ae8d7bd01079286050985b54c3ae50f20e)]
+- 🚧 chore: update node version on ci environment [[8f8f221](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/8f8f2217975d03dc9f1b78d0ded75df504abe9ae)]
+- 🚧 chore: set package.json private key to false [[0c4d9c8](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/0c4d9c8794e2368f489e194d69303a48f115b0a1)]
 
 
 <a name="1.0.0"></a>
