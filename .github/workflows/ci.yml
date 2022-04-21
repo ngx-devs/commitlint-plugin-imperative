@@ -28,6 +28,8 @@ jobs:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: npx semantic-release
 
+      - name: 🔧 Install gitmoji-changelog
+        run: npm install -g gitmoji-changelog
+
       - name: 📝 Generate Changelog
-      - run: npm install -g gitmoji-changelog
       - run: gitmoji-changelog
