@@ -1,6 +1,7 @@
 {
   "name": "@ngx-devs/commitlint-plugin-imperative",
   "version": "1.0.0",
+  "private": false,
   "description": "commitlint plugin to ensure that commits are made using imperative mood",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
