@@ -5,6 +5,18 @@
 
 ### Changed
 
+- 🔧 ci: change package to public access [[3d86afe](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/3d86afe7a77ffa31364bca54dca5d3e9e304290c)]
+
+
+<a name="1.1.0"></a>
+## 1.1.0 (2022-04-22)
+
+### Added
+
+- ✨ feat: add pt-br and en rules [[ce95313](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/ce9531361a3c5fe87a0faf2a8b64c5395c4293ae)]
+
+### Changed
+
 - 🔧 ci: add action to commit [[d3807a8](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/d3807a8aaa6e1af9c0281422490a8821f3371100)]
 - 🔧 ci: fix yml syntax [[835b587](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/835b5870894cabc84a46a75171abfb64b5295d7a)]
 - 🔧 ci: fix yml syntax [[ef477bc](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/ef477bcc79a24858716dea207aae26e8412506a8)]
@@ -13,11 +25,15 @@
 
 ### Documentation
 
+- ✏️ docs: update changelog [[b043325](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/b043325bbda7f69374cf805e623a50e7672da84e)]
 - ✏️ docs: rename readme file [[25d23d5](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/25d23d5403534e637505c334cb46b3bccda8f241)]
 - ✏️ docs: update changelog [[a82186d](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/a82186d196da6efc722184fbe1c5f713b52099e7)]
 
 ### Miscellaneous
 
+- 🚧 chore(husky): add commit-msg hook [[50fcf04](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/50fcf04cad3a8b4b695834474a6e822bdc6ee4e3)]
+- 🚧 chore: change commitlint config to typescript file [[3854f31](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/3854f31d6e7999d26099fc5278c140a0e7e4d1ef)]
+- 🚧 chore: change prettier printWidth [[35281ce](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/35281ce416ea30bed8bd8c9895b58c2862b95004)]
 - 🧪 test: update test description [[3ae4cf2](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/3ae4cf21c338ba6bdd9baa600a37d230f0d83d23)]
 - 🚧 chore: add changelogrc config [[4c0ceb9](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/4c0ceb9c078e66cb0cbd33b18be16fb325bc557f)]
 - 🚧 chore: add gitmoji changelog action [[fc0764c](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/fc0764cd861386b58c9ea9d56a6f78aa5f98a971)]
