@@ -1,5 +1,18 @@
 # Changelog
 
+<a name="1.1.4"></a>
+## 1.1.4 (2022-04-22)
+
+### Documentation
+
+- ✏️ docs: update changelog [[a5a03b6](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/a5a03b62864b5af4923a7aae0d25246c3ddaaa28)]
+
+### Miscellaneous
+
+-  chore(release): 1.1.4 [skip ci] [[6073bab](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/6073babdd94fec242e12ed82b684903843829b07)]
+- 🚧 chore(ci): update changelog commit message [[22ff3e7](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/22ff3e71e90234557af0b529eadc38da4a5fbb79)]
+
+
 <a name="1.1.3"></a>
 ## 1.1.3 (2022-04-22)
 
