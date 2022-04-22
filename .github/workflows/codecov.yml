@@ -6,32 +6,25 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        node-version: [12.x, 13.x, 14.x, 15.x]
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
         with:
-          fetch-depth: 2
+          node-version: '16.2.0'
 
-      - name: Set up Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v1
-        with:
-          node-version: ${{ matrix.node-version }}
+      - name: 🔧 Install dependencies
+        run: npm ci
 
-      - name: Install dependencies
-        run: npm install
-
-      - name: Run tests
+      - name: 🧪 Run Tests and Generate Coverage
         run: npm run coverage
 
-      - name: Upload coverage to Codecov
+      - name: 📁 Upload coverage to Codecov
       - uses: codecov/codecov-action@v2
         with:
           directory: ./coverage
-          files: ./cobertura-coverage.xml
-          name: codecov-umbrella # optional
-          fail_ci_if_error: true
+          files: ./coverage1.xml,./coverage2.xml # optional
+          flags: unittests # optional
+          name: cobertura-coverage# optional
+          fail_ci_if_error: true # optional (default = false)
           verbose: true # optional (default = false)
+

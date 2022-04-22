@@ -16,13 +16,13 @@ jobs:
         with:
           node-version: '16.2.0'
 
-      - name: 🔧 Install
+      - name: 🔧 Install dependencies
         run: npm ci
 
-      - name: 🧪 Tests
+      - name: 🧪 Run Tests
         run: npm run test
 
-      - name: 🚀 Release
+      - name: 🚀 Publish Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
@@ -36,4 +36,4 @@ jobs:
 
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: ':pencil2: docs: update changelog'
+          commit_message: ':robot: chore(release): update changelog [skip ci]'
