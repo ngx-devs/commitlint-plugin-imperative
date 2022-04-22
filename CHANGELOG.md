@@ -3,9 +3,15 @@
 <a name="next"></a>
 ## next
 
+### Changed
+
+- 🔧 ci(codecov-ci): fix coverage file name [[2cabf9c](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/2cabf9cb040870c0994b6b85c01581659d4145ed)]
+
 ### Miscellaneous
 
+-  :robot: chore(release): update changelog [skip ci] [[d3a0473](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/d3a047358529acb93ba58c6a7b97d8a34cc7e12d)]
 -  :robot: chore(release): update changelog [skip ci] [[c2f4f9f](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/c2f4f9f0804a74ad577a7f37bd29c55311a51bba)]
+-  Merge branch &#x27;main&#x27; of https://github.com/gleisonkz/commitlint-plugin-imperative [[f2ec8ae](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/f2ec8aebffe1a53bc8003953676e91f0769765c2)]
 - 🚧 chore(codecov-ci): fix upload step sintax error [[a49447a](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/a49447a3b7acaf40dd803d0e0935ae2779025237)]
 
 
