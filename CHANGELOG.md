@@ -1,5 +1,23 @@
 # Changelog
 
+<a name="1.1.2"></a>
+## 1.1.2 (2022-04-22)
+
+### Bug Fix
+
+- 🐛 fix: remove logs [[bacd356](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/bacd3569fc6aad2441ccce7c21ec2345f577fbce)]
+
+### Documentation
+
+- ✏️ docs: update changelog [[bfc5edb](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/bfc5edb1dd54c16ba881247af90d4ef7958160d4)]
+- ✏️ docs: add usage and example [[5808b79](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/5808b79dc0bdea75ae96f3a7ab3634e349329469)]
+
+### Miscellaneous
+
+-  chore(release): 1.1.2 [skip ci] [[1a0a48f](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/1a0a48fe99677909b30bb078a694337353c582be)]
+-  Merge branch &#x27;main&#x27; of https://github.com/gleisonkz/commitlint-plugin-imperative [[24db94c](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/24db94ccc44006b2aff54d850dff5ed7ce9c700a)]
+
+
 <a name="1.1.1"></a>
 ## 1.1.1 (2022-04-22)
 
