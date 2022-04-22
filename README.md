@@ -6,6 +6,10 @@ A Commitlint plugin to ensure that commits are made using imperative mood.
 
 <p align="center">
 
+  <a href="https://codecov.io/gh/ngx-devs/commitlint-plugin-imperative">
+    <img src="https://codecov.io/gh/ngx-devs/commitlint-plugin-imperative/branch/main/graph/badge.svg?token=RS4ZQA057M"/>
+  </a>
+
   <a href="https://github.com/ngx-devs/commitlint-plugin-imperative/actions?query=workflow%3A%22CI%22">
     <img alt="Build" src="https://github.com/ngx-devs/commitlint-plugin-imperative/workflows/CI/badge.svg">
   </a>
