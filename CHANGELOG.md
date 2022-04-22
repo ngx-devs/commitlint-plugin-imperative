@@ -1,5 +1,21 @@
 # Changelog
 
+<a name="1.1.3"></a>
+## 1.1.3 (2022-04-22)
+
+### Changed
+
+- 🔧 ci: add codecov yml [[c43f5b4](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/c43f5b42bc30f84c3e4abf0ea9fbfaaae904d220)]
+
+### Documentation
+
+- ✏️ docs: update changelog [[2dbf59f](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/2dbf59f279836fab8255d1d1ed959a6982968c62)]
+
+### Miscellaneous
+
+-  chore(release): 1.1.3 [skip ci] [[b4cd2a5](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/b4cd2a5d10b325deabb16924033dcf2dbf44e393)]
+
+
 <a name="1.1.2"></a>
 ## 1.1.2 (2022-04-22)
 
