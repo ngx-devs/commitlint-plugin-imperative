@@ -8,11 +8,18 @@
 - 🔧 ci(codecov): remove optional file and directory field [[8d9b412](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/8d9b41297fb3fe4eed1cf303afb0cbe036903632)]
 - 🔧 ci(codecov-ci): fix coverage file name [[2cabf9c](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/2cabf9cb040870c0994b6b85c01581659d4145ed)]
 
+### Documentation
+
+- ✏️ docs: add coverage badge [[96a37f2](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/96a37f269777eecc0ec2aa6094f35eb994594f1b)]
+
 ### Miscellaneous
 
+-  :robot: chore(release): update changelog [skip ci] [[fedeb2f](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/fedeb2f5387adf8fadc9231d1f2ca93bc77bce4e)]
 -  :robot: chore(release): update changelog [skip ci] [[5b3bff2](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/5b3bff2554b2a8b5df02b84399c04501eee827dc)]
 -  :robot: chore(release): update changelog [skip ci] [[d3a0473](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/d3a047358529acb93ba58c6a7b97d8a34cc7e12d)]
 -  :robot: chore(release): update changelog [skip ci] [[c2f4f9f](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/c2f4f9f0804a74ad577a7f37bd29c55311a51bba)]
+-  Merge branch &#x27;main&#x27; of https://github.com/gleisonkz/commitlint-plugin-imperative [[eaaac51](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/eaaac51e823feac7b8469b9257a0f538a926b5dc)]
+- 🚧 chore(semver): update release rules [[68a2cda](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/68a2cda14bcd82a8da5c07d4429217c2e7200868)]
 -  Merge branch &#x27;main&#x27; of https://github.com/gleisonkz/commitlint-plugin-imperative [[5cacfa6](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/5cacfa6c26f9c5b367559e6db9ab4579e41912ee)]
 - 🧪 test: remove .only on test [[c65f669](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/c65f6694ebb537d5c7c911d71e7a3168acb8dd71)]
 -  Merge branch &#x27;main&#x27; of https://github.com/gleisonkz/commitlint-plugin-imperative [[f2ec8ae](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/f2ec8aebffe1a53bc8003953676e91f0769765c2)]
