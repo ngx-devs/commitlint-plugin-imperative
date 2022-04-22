@@ -8,7 +8,6 @@ const importLintPackage = async () => {
 };
 
 test('Should exports a CommonJS module', (executionContext) => {
-  console.log(plugin);
   executionContext.is(typeof plugin, 'object');
 });
 
