@@ -1,4 +1,4 @@
-name: Running Code Coverage
+name: Code Coverage
 
 on: [push, pull_request]
 
@@ -22,7 +22,7 @@ jobs:
         uses: codecov/codecov-action@v2
         with:
           directory: ./coverage
-          files: ./coverage1.xml,./coverage2.xml # optional
+          files: ./cobertura-coverage.xml # optional
           flags: unittests # optional
           name: cobertura-coverage# optional
           fail_ci_if_error: true # optional (default = false)
