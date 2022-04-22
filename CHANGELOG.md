@@ -1,5 +1,14 @@
 # Changelog
 
+<a name="next"></a>
+## next
+
+### Miscellaneous
+
+-  :robot: chore(release): update changelog [skip ci] [[c2f4f9f](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/c2f4f9f0804a74ad577a7f37bd29c55311a51bba)]
+- 🚧 chore(codecov-ci): fix upload step sintax error [[a49447a](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/a49447a3b7acaf40dd803d0e0935ae2779025237)]
+
+
 <a name="1.1.4"></a>
 ## 1.1.4 (2022-04-22)
 
