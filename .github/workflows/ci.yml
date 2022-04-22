@@ -34,7 +34,6 @@ jobs:
       - name: 📝 Generate Changelog
         run: gitmoji-changelog
 
-      - name: 📝 Commit Changelog Changes
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: ':pencil2: docs: update changelog'
