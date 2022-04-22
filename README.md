@@ -31,8 +31,7 @@ A Commitlint plugin to ensure that commits are made using imperative mood.
 <p align="center"> 
  <a href="#information_source-about">About</a> •
  <a href="#arrow_forward-installation">Installation</a> •
- <a href="#hammer_and_wrench-technologies">Technologies</a> •  
- <a href="#hammer_and_wrench-commands">Commands</a> •   
+ <a href="#hammer_and_wrench-technologies">Usage</a> •   
  <a href="#boy-author">Author</a> •
  <a href="#balance_scale-license">License</a>
 </p>
@@ -41,7 +40,9 @@ A Commitlint plugin to ensure that commits are made using imperative mood.
 
 <div align="center">
 
-Command-line interface (CLI) built in Node.js allow you to automate repetitive tasks and make your life easier when working with Angular projects.
+If you want to write a git commit message properly, you should use the imperative mood. This means you need to eliminate the temptation to use gerunds or past tense in your subject lines. Don't write a git commit subject line that talks about what you did, or what you are doing. Instead, describe what was done.
+
+Use this plugin to enforce this rule.
 
 ---
 
@@ -51,38 +52,34 @@ Command-line interface (CLI) built in Node.js allow you to automate repetitive t
 
 ```bash
 #install
-npm install @ngx-devs/cli -g
-
-#run some command
-ngxd g c sample
+npm install -D @ngx-devs/commitlint-plugin-imperative
 ```
 
 ---
 
-## :hammer_and_wrench: **Technologies**
+## :robot: Usage
 
-<div align="center">
-
-|                               :globe_with_meridians: CLI                               |
-| :------------------------------------------------------------------------------------: |
-|                    [Gluegun](https://www.npmjs.com/package/gluegun)                    |
-| [@angular-devkit/schematics](https://www.npmjs.com/package/@angular-devkit/schematics) |
-|                     [TypeScript](https://www.typescriptlang.org/)                      |
-
-</div>
-
-## :robot: Commands
+Set your commitlint config to:
 
 ```bash
-# create a new project
-ngxd new <project-name>
+{
+    plugins: ["@ngx-devs/commitlint-plugin-imperative"],
+    rules: {
+        "imperative-rule/en": [2, "always", ]
+    }
+}
 ```
 
+## Example
+
 ```bash
-# create a new entity
-ngxd generate component <component-name>
-# Or use an alias
-ngxd g c <component-name>
+$ git commit -m "adding a project"
+⧗   input: adding a project
+✖   This commit is in the gerund. Please use the imperative form. [imperative-rule/en]
+
+✖   found 1 problems, 0 warnings
+ⓘ   Get help: https://github.com/conventional-changelog/commitlint/#what-is-commitlint
+
 ```
 
 ## :boy: **Author**
