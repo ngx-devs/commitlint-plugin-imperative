@@ -46,7 +46,7 @@ test(`Should give an error for ${eRules.IMPERATIVE_RULE_PT_BR} when using past t
   executionContext.is(report.errors[0].name, eRules.IMPERATIVE_RULE_PT_BR);
 });
 
-test.only(`Should give an error for ${eRules.IMPERATIVE_RULE_EN} when using gerund in commit header`, async (executionContext) => {
+test(`Should give an error for ${eRules.IMPERATIVE_RULE_EN} when using gerund in commit header`, async (executionContext) => {
   const lint = await importLintPackage();
   executionContext.truthy(lint);
 
