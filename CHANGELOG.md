@@ -1,11 +1,25 @@
 # Changelog
 
-<a name="next"></a>
-## next
+<a name="1.1.1"></a>
+## 1.1.1 (2022-04-22)
 
 ### Changed
 
+- 🔧 ci: update task name [[2cb4548](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/2cb45482606992e948449b3f6857d527b017c85e)]
 - 🔧 ci: change package to public access [[3d86afe](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/3d86afe7a77ffa31364bca54dca5d3e9e304290c)]
+
+### Bug Fix
+
+- 🐛 fix(ci): remove unnecessary name [[633d7ac](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/633d7acde323aa012b565c92d867f8c6010833f8)]
+
+### Documentation
+
+- ✏️ docs: update changelog [[13a85a1](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/13a85a1ca1f225251601c005b4ed5e23ed2f4fd2)]
+
+### Miscellaneous
+
+-  chore(release): 1.1.1 [skip ci] [[b3d2707](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/b3d2707156582129ae811a6e66069ea47379ac86)]
+-  Merge branch &#x27;main&#x27; of https://github.com/gleisonkz/commitlint-plugin-imperative [[b158ea3](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/b158ea3f5309ada82c02f117d6bd3c59c88b3cfd)]
 
 
 <a name="1.1.0"></a>
