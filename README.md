@@ -44,7 +44,37 @@ A Commitlint plugin to ensure that commits are made using imperative mood.
 
 <div align="center">
 
-If you want to write a git commit message properly, you should use the imperative mood. This means you need to eliminate the temptation to use gerunds or past tense in your subject lines. Don't write a git commit subject line that talks about what you did, or what you are doing. Instead, describe what was done.
+If you want to write a git commit message properly, you should use the _imperative mood_. This means you need to eliminate the temptation to use gerunds or past tense in your subject lines.
+
+Use the _imperative mood_. It is easier to read and scan quickly:
+
+We use _imperative mood_ because it's going to complete the sentence “**If applied, this commit will …**”
+(e.g. “**If applied, this commit will** _add alert admin for new user registration_”).
+
+Using _imperative mood_ and not past tense in commit messages has made a big thread of discussions between developers over the question _“Why should it be present tense?”_.
+
+The reason behind using present tense is that the commit message is answering the question _“What will happen after the commit is applied?”_. If we think of a commit as an independent patch, it doesn’t matter if it applied in the past. What matters is that this patch is always supposed to make that particular change when it’s applied.
+
+Even Git itself suggests and uses imperative mood in commit messages in [Documentation/SubmittingPatches](https://git.kernel.org/pub/scm/git/git.git/tree/Documentation/SubmittingPatches?h=v2.36.1#n181)
+
+For example, the default message created when using `git merge` reads:
+
+```
+Merge branch 'feature/login'
+```
+
+And when using `git revert`:
+
+```
+Revert "Add the thing with the stuff"
+This reverts commit cc87791524aedd593cff5a74532befe7ab69ce9d.
+```
+
+Or when clicking the “Merge” button on a GitHub pull request:
+
+```
+Merge pull request #123 from someuser/somebranch
+```
 
 Use this plugin to enforce this rule.
 
