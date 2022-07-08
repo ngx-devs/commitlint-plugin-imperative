@@ -14,6 +14,12 @@
 
 ### Miscellaneous
 
+- 🧱 build: add node types [[596ea65](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/596ea6549c612c0fe0e12f6a911cfd807800a22f)]
+- 📝 docs: add examples for both rules [[7bd4217](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/7bd42177b5db6ae822ff1673b5cd04f2a0d86fa8)]
+- 📦 refactor: update error messages [[e66e285](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/e66e285f65cbad92c47fec603013f694224a6579)]
+- 🚧 chore(release): update rules [[bedca53](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/bedca53d0f94b48801e569a0b866ebd8b827cf95)]
+- 📝 docs: update about section [[e4656cd](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/e4656cd898ebc8778a42ea0458c7d1c5d171c736)]
+-  :robot: chore(release): update changelog [skip ci] [[b407727](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/b407727dcffdf680e003defbd293b494f17b586a)]
 -  :robot: chore(release): update changelog [skip ci] [[fedeb2f](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/fedeb2f5387adf8fadc9231d1f2ca93bc77bce4e)]
 -  :robot: chore(release): update changelog [skip ci] [[5b3bff2](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/5b3bff2554b2a8b5df02b84399c04501eee827dc)]
 -  :robot: chore(release): update changelog [skip ci] [[d3a0473](https://github.com/ngx-devs/commitlint-plugin-imperative/commit/d3a047358529acb93ba58c6a7b97d8a34cc7e12d)]
