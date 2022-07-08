@@ -35,7 +35,7 @@ A Commitlint plugin to ensure that commits are made using imperative mood.
 <p align="center"> 
  <a href="#information_source-about">About</a> •
  <a href="#arrow_forward-installation">Installation</a> •
- <a href="#hammer_and_wrench-technologies">Usage</a> •   
+ <a href="#robot-usage">Usage</a> •     
  <a href="#boy-author">Author</a> •
  <a href="#balance_scale-license">License</a>
 </p>
@@ -93,7 +93,15 @@ npm install -D @ngx-devs/commitlint-plugin-imperative
 
 ## :robot: Usage
 
-Set your commitlint config to:
+<details open>
+
+  <summary>
+    <code>
+      imperative-rule/en
+    </code>
+  </summary>
+
+<p style="margin-top:10px" >Set your commitlint config to:</p>
 
 ```bash
 {
@@ -104,17 +112,102 @@ Set your commitlint config to:
 }
 ```
 
-## Example
+</details>
+
+<details open>
+
+  <summary>
+    <code>
+      imperative-rule/pt-br
+    </code>
+  </summary>
+
+<p style="margin-top:10px" >Set your commitlint config to:</p>
+
+```bash
+{
+    plugins: ["@ngx-devs/commitlint-plugin-imperative"],
+    rules: {
+        "imperative-rule/pt-br": [2, "always", ]
+    }
+}
+```
+
+</details>
+
+### :writing_hand: Examples
+
+<details open>
+
+  <summary>
+    <code>
+      imperative-rule/en
+    </code>
+  </summary>
+
+<p style="margin-top:10px">
 
 ```bash
 $ git commit -m "adding a project"
+
 ⧗   input: adding a project
-✖   This commit is in the gerund. Please use the imperative form. [imperative-rule/en]
+✖   This commit is in gerund. Please use the imperative form. [imperative-rule/en]
 
 ✖   found 1 problems, 0 warnings
-ⓘ   Get help: https://github.com/conventional-changelog/commitlint/#what-is-commitlint
-
 ```
+
+</p>
+
+<p style="margin-top:10px">
+
+```bash
+$ git commit -m "added new project"
+
+⧗   input: added new project
+✖   This commit is in past tense. Please use the imperative form. [imperative-rule/en]
+
+✖   found 1 problems, 0 warnings
+```
+
+</p>
+
+</details>
+
+<details open>
+
+  <summary>
+    <code>
+      imperative-rule/pt-br
+    </code>
+  </summary>
+
+<p style="margin-top:10px">
+
+```bash
+$ git commit -m "adicionando autenticação"
+
+⧗   input: adicionando autenticação
+✖   This commit is in gerund. Please use the imperative form. [imperative-rule/pt-br]
+
+✖   found 1 problems, 0 warnings
+```
+
+</p>
+
+<p style="margin-top:10px">
+
+```bash
+$ git commit -m "adicionado autenticação"
+
+⧗   input: adicionado autenticação
+✖   This commit is in past tense. Please use the imperative form. [imperative-rule/pt-br]
+
+✖   found 1 problems, 0 warnings
+```
+
+</p>
+
+</details>
 
 ## :boy: **Author**
 
