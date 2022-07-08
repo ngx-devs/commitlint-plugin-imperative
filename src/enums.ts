@@ -1,6 +1,6 @@
 export const enum eImperativeRuleErrorMessage {
-  PAST_TENSE = 'This commit is in the past tense. Please use the imperative form.',
-  GERUND = 'This commit is in the gerund. Please use the imperative form.'
+  PAST_TENSE = 'This commit is in past tense. Please use the imperative form.',
+  GERUND = 'This commit is in gerund. Please use the imperative form.'
 }
 
 export const enum eRules {
